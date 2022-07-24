@@ -1,0 +1,1820 @@
+*{
+    margin: auto;
+}
+.first{
+    width: auto;
+    height: 350px;
+    background-color: rgb(15, 0, 80);
+}
+.first-div-pic{
+    width: 100%;
+    height: 350px;
+    filter: blur(5px);
+}
+.first ul{
+    display: flex;
+    width: 1100px;
+    position: relative;
+    top: -350px;
+    list-style: none;
+    background-clip: border-box;
+}
+.pastorpic{
+    width: 600px;
+    height: 340px;
+    position: relative;
+    top: 5px;
+}
+.boundword{
+    text-align: center;
+    text-align: center;
+    background-color: rgb(46, 152, 238);
+    padding: 25px;
+    border-right: 5px solid #2d2d2d;
+    width: 450px;
+    border-radius: 15px;
+}
+.boundword p{
+    color: red;
+    font-size: 20px;
+    letter-spacing: 0.2em;
+    user-select: none;
+}
+.boundword h1{
+    color: white;
+    font-size: 35px;
+    letter-spacing: 0.1em;
+    user-select: none;
+    word-spacing: 00.2em;
+    text-shadow: 2px #2d2d2d;
+}
+.mobilenav{
+    display: none;
+}
+
+
+.second{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    background-color:  rgb(15, 0, 80);
+}
+.menubar{
+    display: flex;
+    list-style: none;
+    width: auto;
+   
+}
+.navbar{
+    display: flex;
+    list-style: none;
+    width: 100%;
+}
+.logopic{
+    width: 80px;
+    height: 80px;
+}
+.home{
+    padding-left: 60px;
+    padding-right: 60px;
+    text-decoration: none;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    color: white;
+    font-family: cursive;
+}
+.home:hover{
+    border-top: 2px solid red;
+    border-bottom: 2px solid red;
+}
+.proa{
+    padding: 15px;
+    padding-left: 70px;
+    padding-right: 70px;
+    border-radius: 15px;
+    text-decoration: none;
+    color: white;
+    font-family: cursive;
+    background-color: blue;
+    border: 2px solid blue;
+}
+.prob{
+    padding: 15px;
+    padding-left: 60px;
+    padding-right: 60px;
+    border-radius: 15px;
+    text-decoration: none;
+    color: white;
+    font-family: cursive;
+    border: 2px solid red;
+    display: flex;
+    background-color: red;
+}
+
+
+.splits{
+    width: 100%;
+    background-color: #172524;
+    height: fit-content;
+}
+.splits ul{
+    display: flex;
+    list-style: none;
+}
+.splits ul li{
+    width: 300px;
+    background-color: rgb(45, 171, 160);
+    height: 200px;
+    border-radius: 15px;
+    text-align: center;
+}
+.splitpic{
+    width: 300px;
+    height: 150px;
+    border-radius: 15px;
+}
+.splits ul li a h3{
+    position: relative;
+    
+    font-size: 15px;
+    letter-spacing: 0.1em;
+    word-spacing: 0.1em;
+}
+.splits ul li a{
+    text-decoration: none;
+    color: BLACK;
+}
+
+
+.footer{
+    width: 100%;
+    height: 300px;
+    background-color: #2d2d2d;
+    
+}
+.footer ul{
+    display: flex;
+    list-style: none;
+}
+.footer ul .ama{
+    width: 250px;
+    height: 250px;
+    background-color: none;
+}
+.about-info ul{
+    display: block;
+}
+.about-info ul li {
+    display: flex;
+    padding-top: 10px;
+    text-align: left;
+}
+.about-info ul li p{
+  color: white;
+  font-size: 15px;
+  word-spacing: 5px;
+}
+.about-info ul li a{
+    display: flex;
+    padding-top: 0px;
+    text-align: left;
+    margin: 0;
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.about-info ul li h1{
+    color: white;
+    font-size: 25px;
+}
+.about-info ul li h4{
+    width: 5px;
+    background-color: yellow;
+    height: 40px;
+}
+.nav-toggler{
+    height: 34px;
+    width: 44px;
+    background-color: black;
+    border-radius: 4px;
+    cursor: pointer;
+    position: fixed;
+    top: -1px;
+    right: 5px;
+    border: 2px solid #fff;
+    display: none;
+}
+.nav-toggler:focus{
+    outline: none;
+    box-shadow: 0 0 15px rgba(red, green, blue, alpha);
+}
+.nav-toggler span{
+    height: 2px;
+    width: 20px;
+    background-color: white;
+    display: block;
+    margin: auto;
+    position: relative;
+}
+.nav-toggler span::before,
+.nav-toggler span::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+.nav-toggler span::before{
+    transform: translateY(-6px);
+}
+.nav-toggler span::after{
+    transform: translateY(6px);   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1150px) {
+
+    .first{
+        width: auto;
+        height: 350px;
+        background-color: rgb(15, 0, 80);
+    }
+    .first-div-pic{
+        width: 100%;
+        height: 350px;
+        filter: blur(5px);
+    }
+    .first ul{
+        display: flex;
+        width: 800px;
+        position: relative;
+        top: -350px;
+        list-style: none;
+        background-clip: border-box;
+    }
+    .pastorpic{
+        width: 450px;
+        height: 340px;
+        position: relative;
+        top: 8px;
+    }
+    .boundword{
+        text-align: center;
+        text-align: center;
+        background-color: rgb(46, 152, 238);
+        padding: 20px;
+        border-right: 5px solid #2d2d2d;
+        width: 350px;
+        border-radius: 15px;
+    }
+    .splits{
+        width: auto;
+    }
+    .splits ul{
+        position: relative;
+        left: -20px;
+    }
+    .splits ul li{
+        width: 260px;
+        background-color: rgb(45, 171, 160);
+        height: 170px;
+        border-radius: 15px;
+        text-align: center;
+    }
+    .splitpic{
+        width: 260px;
+        height: 120px;
+        border-radius: 15px;
+    }
+    .splits ul li a h3{
+        font-size: 15px;
+        top: 5px;
+        word-spacing: 0.08em;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+@media screen and (max-width: 1100px) {
+
+    .first{
+        width: auto;
+        height: 350px;
+        background-color: rgb(15, 0, 80);
+    }
+    .first-div-pic{
+        width: 100%;
+        height: 350px;
+        filter: blur(5px);
+    }
+    .first ul{
+        display: flex;
+        width: 800px;
+        position: relative;
+        top: -350px;
+        list-style: none;
+        background-clip: border-box;
+    }
+    .pastorpic{
+        width: 450px;
+        height: 340px;
+        position: relative;
+        top: 8px;
+    }
+    .boundword{
+        text-align: center;
+        text-align: center;
+        background-color: rgb(46, 152, 238);
+        padding: 20px;
+        border-right: 5px solid #2d2d2d;
+        width: 350px;
+        border-radius: 15px;
+    }
+    .splits{
+        width: auto;
+    }
+    .splits ul{
+        position: relative;
+        left: -20px;
+    }
+    .splits ul li{
+        width: 260px;
+        background-color: rgb(45, 171, 160);
+        height: 170px;
+        border-radius: 15px;
+        text-align: center;
+    }
+    .splitpic{
+        width: 260px;
+        height: 120px;
+        border-radius: 15px;
+    }
+    .splits ul li a h3{
+        font-size: 14px;
+        top: px;
+        word-spacing: 0.08em;
+    }
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+@media screen and (max-width: 1024px) {
+    .splits ul li{
+        width: 225px;
+    }
+    .splitpic{
+        width: 225px;
+    }
+    .splits ul li a h3{
+        font-size: 15px;
+    }
+    .home{
+        padding-left: 30px;
+        padding-right: 30px;
+        text-decoration: none;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        color: white;
+        font-family: cursive;
+    }
+    
+    }
+
+
+
+
+
+@media screen and (max-width: 1000px) {
+
+    .first{
+        width: auto;
+        height: 350px;
+        background-color: rgb(15, 0, 80);
+    }
+    .first-div-pic{
+        width: 100%;
+        height: 350px;
+        filter: blur(5px);
+    }
+    .first ul{
+        display: flex;
+        width: 800px;
+        position: relative;
+        top: -350px;
+        list-style: none;
+        background-clip: border-box;
+    }
+    .pastorpic{
+        width: 450px;
+        height: 340px;
+        position: relative;
+        top: 8px;
+    }
+    .boundword{
+        text-align: center;
+        text-align: center;
+        background-color: rgb(46, 152, 238);
+        padding: 18px;
+        border-right: 5px solid #2d2d2d;
+        width: 320px;
+        border-radius: 15px;
+    }
+    .boundword p{
+        color: red;
+        font-size: 18px;
+        letter-spacing: 0.2em;
+        user-select: none;
+    }
+    .boundword h1{
+        color: white;
+        font-size: 30px;
+        letter-spacing: 0.1em;
+        user-select: none;
+        word-spacing: 00.2em;
+        text-shadow: 2px #2d2d2d;
+    }
+    .proa{
+        padding: 15px;
+        padding-left: 50px;
+        padding-right: 50px;
+        border-radius: 15px;
+        text-decoration: none;
+        color: white;
+        font-family: cursive;
+        background-color: blue;
+        border: 2px solid blue;
+    }
+    .home{
+        padding-left: 50px;
+        padding-right: 50px;
+        text-decoration: none;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        color: white;
+        font-family: cursive;
+    }
+    .prob{
+        padding: 15px;
+        padding-left: 50px;
+        padding-right: 50px;
+        border-radius: 15px;
+        text-decoration: none;
+        color: white;
+        font-family: cursive;
+        border: 2px solid red;
+        display: flex;
+        background-color: red;
+    }
+    .splits{
+        width: auto;
+    }
+    .splits ul{
+        position: relative;
+        left: -20px;
+    }
+    .splits ul li{
+        width: 230px;
+        background-color: rgb(45, 171, 160);
+        height: 170px;
+        border-radius: 15px;
+        text-align: center;
+    }
+    .splitpic{
+        width: 230px;
+        height: 120px;
+        border-radius: 15px;
+    }
+    .splits ul li a h3{
+        font-size: 14px;
+        top: px;
+        word-spacing: 0.08em;
+    }
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 980px) {
+
+    .first{
+        width: auto;
+        height: 350px;
+        background-color: rgb(15, 0, 80);
+    }
+    .first-div-pic{
+        width: 100%;
+        height: 350px;
+        filter: blur(5px);
+    }
+    .first ul{
+        display: flex;
+        width: 800px;
+        position: relative;
+        top: -350px;
+        list-style: none;
+        background-clip: border-box;
+    }
+    .pastorpic{
+        width: 450px;
+        height: 340px;
+        position: relative;
+        top: 8px;
+    }
+    .boundword{
+        text-align: center;
+        text-align: center;
+        background-color: rgb(46, 152, 238);
+        padding: 18px;
+        border-right: 5px solid #2d2d2d;
+        width: 320px;
+        border-radius: 15px;
+    }
+    .boundword p{
+        color: red;
+        font-size: 18px;
+        letter-spacing: 0.2em;
+        user-select: none;
+    }
+    .boundword h1{
+        color: white;
+        font-size: 30px;
+        letter-spacing: 0.1em;
+        user-select: none;
+        word-spacing: 00.2em;
+        text-shadow: 2px #2d2d2d;
+    }
+    .proa{
+        padding: 15px;
+        padding-left: 50px;
+        padding-right: 50px;
+        border-radius: 15px;
+        text-decoration: none;
+        color: white;
+        font-family: cursive;
+        background-color: blue;
+        border: 2px solid blue;
+    }
+    .home{
+        padding-left: 50px;
+        padding-right: 50px;
+        text-decoration: none;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        color: white;
+        font-family: cursive;
+    }
+    .prob{
+        padding: 15px;
+        padding-left: 50px;
+        padding-right: 50px;
+        border-radius: 15px;
+        text-decoration: none;
+        color: white;
+        font-family: cursive;
+        border: 2px solid red;
+        display: flex;
+        background-color: red;
+    }
+    .splits{
+        width: auto;
+    }
+    .splits ul{
+        position: relative;
+        left: -20px;
+    }
+    .splits ul li{
+        width: 220px;
+        background-color: rgb(45, 171, 160);
+        height: 160px;
+        border-radius: 15px;
+        text-align: center;
+    }
+    .splitpic{
+        width: 220px;
+        height: 120px;
+        border-radius: 15px;
+    }
+    .splits ul li a h3{
+        font-size: 14px;
+        top: -2px;
+        word-spacing: 0.08em;
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 912px) {
+
+    .first{
+        width: auto;
+        height: 350px;
+        background-color: rgb(15, 0, 80);
+    }
+    .first-div-pic{
+        width: 100%;
+        height: 350px;
+        filter: blur(5px);
+    }
+
+    .nav-toggler{
+        height: 34px;
+        width: 44px;
+        background-color: black;
+        border-radius: 4px;
+        cursor: pointer;
+        position: relative;
+        top: -1px;
+        right: 5px;
+        left: 150px;
+        border: 2px solid #fff;
+        display: block;
+    }
+    .first ul{
+        display: flex;
+        width: 800px;
+        position: relative;
+        top: -350px;
+        list-style: none;
+        background-clip: border-box;
+    }
+    .pastorpic{
+        width: 450px;
+        height: 340px;
+        position: relative;
+        top: 8px;
+    }
+    .boundword{
+        text-align: center;
+        text-align: center;
+        background-color: rgb(46, 152, 238);
+        padding: 18px;
+        border-right: 5px solid #2d2d2d;
+        width: 320px;
+        border-radius: 15px;
+    }
+    .boundword p{
+        color: red;
+        font-size: 18px;
+        letter-spacing: 0.2em;
+        user-select: none;
+    }
+    .boundword h1{
+        color: white;
+        font-size: 30px;
+        letter-spacing: 0.1em;
+        user-select: none;
+        word-spacing: 00.2em;
+        text-shadow: 2px #2d2d2d;
+    }
+    .logopic{
+        position: relative;
+        right: 150px;
+    }
+    .proa{
+        padding: 15px;
+        padding-left: 50px;
+        padding-right: 50px;
+        border-radius: 15px;
+        text-decoration: none;
+        color: white;
+        font-family: cursive;
+        background-color: blue;
+        border: 2px solid red;
+        text-align: center;
+    }
+    .second{
+        display: block;
+        height: fit-content;
+    }
+    .navbar{
+        display: none;
+    }
+    .mobilenav{
+        display: block;
+        list-style: none;
+        width: 100%;
+        position: relative;
+       
+        background-color: #4e4848d2;
+        height: 250px;
+        line-height: 50px;
+        text-align: center;
+    }
+    .closemenubar{
+        display: none;
+    }
+    .home{
+        padding-left: 50px;
+        padding-right: 50px;
+        text-decoration: none;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        color: white;
+        font-family: cursive;
+    }
+    .home:hover{
+        border-top: none;
+        border-bottom: none;
+       
+    }
+    .prob{
+        padding: 15px;
+        padding-left: 50px;
+        padding-right: 50px;
+        border-radius: 15px;
+        text-decoration: none;
+        color: white;
+        width: fit-content;
+        height: 25px;
+        position: relative;
+        top: -30px;
+        line-height: 22px;
+        font-family: cursive;
+        border: 2px solid blue;
+        display: flex;
+        background-color: red;
+    }
+    .splits{
+        width: auto;
+    }
+    .splits ul{
+        position: relative;
+        left: -20px;
+    }
+    .splits ul li{
+        width: 200px;
+        background-color: rgb(45, 171, 160);
+        height: 160px;
+        border-radius: 15px;
+        text-align: center;
+    }
+    .splitpic{
+        width: 200px;
+        height: 110px;
+        border-radius: 15px;
+    }
+    .splits ul li a h3{
+        font-size: 14px;
+        top: 5px;
+        color: white;
+        word-spacing: 0.08em;
+    }
+    .about-info ul li a{
+        display: flex;
+        padding-top: 0px;
+        text-align: left;
+        margin: 0;
+        font-size: 12px;
+        text-decoration: none;
+        color: white;
+        font-family: 'Times New Roman', Times, serif;
+    
+    }
+    .about-info ul li h1{
+        color: white;
+        font-size: 18px;
+    }
+    .about-info ul li h4{
+        width: 3px;
+        background-color: yellow;
+        height: 30px;
+    }
+    .footer ul{
+        position: relative;
+        left: -20px;
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 900px) {
+    .first{
+        width: auto;
+        height: 350px;
+        background-color: rgb(15, 0, 80);
+    }
+    .first-div-pic{
+        width: 100%;
+        height: 350px;
+        filter: blur(5px);
+    }
+
+    .nav-toggler{
+        height: 34px;
+        width: 44px;
+        background-color: black;
+        border-radius: 4px;
+        cursor: pointer;
+        position: relative;
+        top: -1px;
+        right: 5px;
+        left: 150px;
+        border: 2px solid #fff;
+        display: block;
+    }
+    .first ul{
+        display: flex;
+        width: 800px;
+        position: relative;
+        top: -350px;
+        list-style: none;
+        background-clip: border-box;
+    }
+    .pastorpic{
+        width: 450px;
+        height: 340px;
+        position: relative;
+        top: 8px;
+    }
+    .boundword{
+        text-align: center;
+        text-align: center;
+        background-color: rgb(46, 152, 238);
+        padding: 18px;
+        border-right: 5px solid #2d2d2d;
+        width: 320px;
+        border-radius: 15px;
+    }
+    .boundword p{
+        color: red;
+        font-size: 18px;
+        letter-spacing: 0.2em;
+        user-select: none;
+    }
+    .boundword h1{
+        color: white;
+        font-size: 30px;
+        letter-spacing: 0.1em;
+        user-select: none;
+        word-spacing: 00.2em;
+        text-shadow: 2px #2d2d2d;
+    }
+    .logopic{
+        position: relative;
+        right: 150px;
+    }
+    .proa{
+        padding: 15px;
+        padding-left: 50px;
+        padding-right: 50px;
+        border-radius: 15px;
+        text-decoration: none;
+        color: white;
+        font-family: cursive;
+        background-color: blue;
+        border: 2px solid red;
+        text-align: center;
+    }
+    .second{
+        display: block;
+        height: fit-content;
+    }
+    .navbar{
+        display: none;
+    }
+    .mobilenav{
+        display: block;
+        list-style: none;
+        width: 100%;
+        position: relative;
+       
+        background-color: #4e4848d2;
+        height: 250px;
+        line-height: 50px;
+        text-align: center;
+    }
+    .closemenubar{
+        display: none;
+    }
+    .home{
+        padding-left: 50px;
+        padding-right: 50px;
+        text-decoration: none;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        color: white;
+        font-family: cursive;
+    }
+    .home:hover{
+        border-top: none;
+        border-bottom: none;
+       
+    }
+    .prob{
+        padding: 15px;
+        padding-left: 50px;
+        padding-right: 50px;
+        border-radius: 15px;
+        text-decoration: none;
+        color: white;
+        width: fit-content;
+        height: 25px;
+        position: relative;
+        top: -30px;
+        line-height: 22px;
+        font-family: cursive;
+        border: 2px solid blue;
+        display: flex;
+        background-color: red;
+    }
+    .splits{
+        width: auto;
+    }
+    .splits ul{
+        position: relative;
+        left: -20px;
+    }
+    .splits ul li{
+        width: 200px;
+        background-color: rgb(45, 171, 160);
+        height: 160px;
+        border-radius: 15px;
+        text-align: center;
+    }
+    .splitpic{
+        width: 200px;
+        height: 110px;
+        border-radius: 15px;
+    }
+    .splits ul li a h3{
+        font-size: 13px;
+        top: 5px;
+        word-spacing: 0.08em;
+    }
+    .about-info ul li a{
+        display: flex;
+        padding-top: 0px;
+        text-align: left;
+        margin: 0;
+        font-size: 12px;
+        text-decoration: none;
+        color: white;
+        font-family: 'Times New Roman', Times, serif;
+    
+    }
+    .about-info ul li h1{
+        color: white;
+        font-size: 18px;
+    }
+    .about-info ul li h4{
+        width: 3px;
+        background-color: yellow;
+        height: 30px;
+    }
+    .footer ul{
+        position: relative;
+        left: -20px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 800px) {
+    .first{
+        width: auto;
+        height: 300px;
+    }
+    .first-div-pic{
+        height: 300px;
+    }
+    .first ul{
+        width: auto;
+        position: relative;
+        top: -310px;
+    }
+    .second{
+        width: auto;
+    }
+    .second ul{
+        width: auto;
+    }
+    .nav-toggler{
+        left: 90px;
+    }
+    .pastorpic{
+        width: 350px;
+        height: 300px;
+    }
+    .boundword{
+        width: 320px;
+    }
+    .boundword h1{
+        font-size: 25px;
+    }
+    .splits ul li{
+        width: 180px;
+    }
+    .splitpic{
+        width: 180px;
+    }
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 760px) {
+    .pastorpic{
+        width: 310px;
+    }
+    .splits ul li{
+        width: 170px;
+    }
+    .first ul{
+        width: auto;
+    }
+    .splitpic{
+        width: 170px;
+    }
+    .splits ul li a h3{
+        font-size: 14px;
+    }
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 720px) {
+    .pastorpic{
+        width: 310px;
+    }
+    .splits ul{
+        display: block;
+    }
+    .first ul{
+        width: auto;
+    }
+    .splits ul li{
+        width: 500px;
+        height: 200px;
+    }
+    .splitpic{
+        width: 500px;
+        height: 200px;
+    }
+    .splits ul li a h3{
+        font-size: 25px;
+        text-align: center;
+        top: -120px;
+    }
+}
+
+
+
+@media screen and (max-width: 700px) {
+    .boundword{
+        width: 280px;
+    }
+.pastorpic {
+    width: 300px;
+}
+
+
+}
+
+
+@media screen and (max-width: 650px) {
+    .boundword{
+        width: 240px;
+    }
+.pastorpic {
+    width: 280px;
+}
+.about-info ul li h1{
+    font-size: 13px;
+}
+.about-info ul li a{
+    font-size: 10px;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 600px) {
+
+.first ul{
+    display: block;
+}
+.boundword{
+    width: 450px;
+}
+.pastorpic{
+    width: 340px;
+    text-align: center;
+    position: relative;
+    left: 110px;
+    top: -5px;
+    height: 200px;
+}
+
+
+
+
+
+
+}
+
+
+
+@media screen and (max-width: 550px) {
+    .first ul{
+        display: block;
+        position: relative;
+        left: -20px;
+    }
+    .boundword{
+        width: 400px;
+    }
+    .boundword p{
+        font-size: 17px;
+    }
+    .boundword h1{
+        font-size: 22px;
+    }
+    .pastorpic{
+        width: 340px;
+        text-align: center;
+        position: relative;
+        left: 110px;
+        top: 0px;
+        height: 200px;
+    }
+    .logopic{
+        position: relative;
+        left: -120px;
+        width: 50px;
+        height: 50px;
+    }
+    .about-info ul li h1{
+        font-size: 12px;
+    }
+    .about-info ul li a{
+        font-size: 9px;
+    }
+}
+
+
+
+
+
+
+@media screen and (max-width: 500px) {
+
+    .first ul{
+        display: block;
+        position: relative;
+        left: -20px;
+    }
+    .boundword{
+        width: 400px;
+    }
+    .boundword p{
+        font-size: 17px;
+    }
+    .boundword h1{
+        font-size: 22px;
+    }
+    .pastorpic{
+        width: 340px;
+        text-align: center;
+        position: relative;
+        left: 70px;
+        top: 0px;
+        height: 200px;
+    }
+    .splits{
+        width: auto;
+    }
+    .splits ul{
+        width: auto;
+    }
+    .splits ul li{
+        width: 450px;
+        height: 160px;
+    }
+    .splits ul li a h3{
+        font-size: 20px;
+        top: -105px;
+    }
+    .splitpic{
+        width: 450px;
+        height: 160px;
+    }
+    .logopic{
+        position: relative;
+        left: -120px;
+        width: 50px;
+        height: 50px;
+    }
+    .footer ul{
+        display: block;
+        text-align: left;
+    }
+    .footer{
+        height: 1000px;
+    }
+    .footer ul li{
+        width: auto;
+        height: fit-content;
+    }
+    .about-info ul li h1{
+        font-size: 22px;
+        width: auto;
+    }
+    .about-info ul li a{
+        font-size: 18px;
+    }
+    .nav-toggler{
+        right: 20px;
+    }
+    
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 420px) {
+
+
+    .nav-toggler{
+        background-color: transparent;
+        border: none;
+        user-select: none;
+    }
+    .first ul{
+        display: block;
+        position: relative;
+        left: -20px;
+    }
+    .boundword{
+        width: 330px;
+
+        border-bottom: 2px solid #2d2d2d;
+    }
+    .boundword p{
+        font-size: 13px;
+    }
+    .boundword h1{
+        font-size: 18px;
+    }
+    .pastorpic{
+        width: 340px;
+        text-align: center;
+        position: relative;
+        left: 10px;
+        top: 11px;
+        height: 200px;
+    }
+    .splits{
+        width: auto;
+    }
+    .second{
+        width: auto;
+    }
+    .splits ul{
+        width: auto;
+    }
+    .splits ul li{
+        width: 385px;
+        height: 220px;
+        border: 1px solid white;
+    }
+    .splits ul li a h3{
+        font-size: 15px;
+        top: 5px;
+    }
+    .splitpic{
+        width: 385px;
+        height: 180px;
+    }
+    .logopic{
+        position: relative;
+        left: -80px;
+        width: 50px;
+        height: 50px;
+    }
+    .footer ul{
+        display: block;
+        text-align: left;
+        left: -50px;
+    }
+    .footer{
+        height: 1000px;
+    }
+    .footer ul li{
+        width: auto;
+        height: fit-content;
+    }
+    .about-info ul li h1{
+        font-size: 18px;
+        width: auto;
+    }
+    .about-info ul li a{
+        font-size: 15px;
+    }
+    .nav-toggler{
+        right: 20px;
+        left: 50px;
+    }
+    
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+@media screen and (max-width: 412px) {
+
+   .pastorpic{
+       top: 12px;
+   }
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 360px) {
+
+    .first ul{
+        display: block;
+        position: relative;
+        left: -20px;
+    }
+    .boundword{
+        width: 280px;
+
+        border-bottom: 2px solid #2d2d2d;
+    }
+    .boundword p{
+        font-size: 13px;
+    }
+    .boundword h1{
+        font-size: 18px;
+    }
+    .pastorpic{
+        width: 300px;
+        text-align: center;
+        position: relative;
+        left: 10px;
+        top: -15px;
+        height: 210px;
+    }
+    .splits{
+        width: auto;
+    }
+    .second{
+        width: auto;
+    }
+    .splits ul{
+        width: auto;
+    }
+    .splits ul li{
+        width: 300px;
+        height: 170px;
+    }
+    .splits ul li a h3{
+        font-size: 12px;
+        top: 5px;
+    }
+    .splitpic{
+        width: 300px;
+        height: 120px;
+    }
+    .logopic{
+        position: relative;
+        left: -80px;
+        width: 50px;
+        height: 50px;
+    }
+    .footer ul{
+        display: block;
+        text-align: left;
+        left: -50px;
+    }
+    .footer{
+        height: 1000px;
+    }
+    .footer ul li{
+        width: auto;
+        height: fit-content;
+    }
+    .about-info ul li h1{
+        font-size: 18px;
+        width: auto;
+    }
+    .about-info ul li a{
+        font-size: 15px;
+    }
+    .nav-toggler{
+        right: 20px;
+        left: 50px;
+    }
+    
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 300px) {
+    .first ul{
+        display: block;
+        position: relative;
+        left: -20px;
+    }
+    .boundword{
+        width: 220px;
+
+        border-bottom: 2px solid #2d2d2d;
+    }
+    .boundword p{
+        font-size: 11px;
+    }
+    .boundword h1{
+        font-size: 15px;
+    }
+    .pastorpic{
+        width: 250px;
+        text-align: center;
+        position: relative;
+        left: 10px;
+        top: 10px;
+        height: 200px;
+    }
+    .splits{
+        width: auto;
+    }
+    .second{
+        width: auto;
+    }
+    .home{
+        font-size: 13px;
+    }
+    .prob,
+    .proa{
+        font-size: 13px;
+        padding: 5px;
+        border-radius: 2px;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .splits ul{
+        width: auto;
+    }
+    .splits ul li{
+        width: 260px;
+        height: 150px;
+    }
+    .splits ul li a h3{
+        font-size: 14px;
+        top: px;
+    }
+    .splitpic{
+        width: 260px;
+        height: 100px;
+    }
+    .logopic{
+        position: relative;
+        left: -80px;
+        width: 40px;
+        height: 40px;
+    }
+    .footer ul{
+        display: block;
+        text-align: left;
+        left: -35px;
+    }
+    .footer{
+        height: 1000px;
+    }
+    .footer ul li{
+        width: auto;
+        height: fit-content;
+    }
+    .about-info ul li h1{
+        font-size: 18px;
+        width: auto;
+    }
+    .about-info ul li a{
+        font-size: 15px;
+    }
+    .nav-toggler{
+        right: 20px;
+        left: 30px;
+        height: 27px;
+        width: 30px;
+    }
+    .nav-toggler span{
+        height: 2px;
+        width: 16px;
+        background-color: white;
+        display: block;
+        margin: auto;
+        position: relative;
+    }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 240px) {
+
+    .first ul{
+        display: block;
+        position: relative;
+        left: -20px;
+    }
+    .boundword{
+        width: 160px;
+
+        border-bottom: 2px solid #2d2d2d;
+    }
+    .boundword p{
+        font-size: 9px;
+    }
+    .boundword h1{
+        font-size: 12px;
+    }
+    .pastorpic{
+        width: 220px;
+        text-align: center;
+        position: relative;
+        left: -10px;
+        top: 5px;
+        height: 200px;
+    }
+    .splits{
+        width: auto;
+    }
+    .second{
+        width: auto;
+    }
+    .home{
+        font-size: 13px;
+    }
+    .prob,
+    .proa{
+        font-size: 13px;
+        padding: 5px;
+        border-radius: 2px;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .splits ul{
+        width: auto;
+    }
+    .splits ul li{
+        width: 200px;
+        height: 100px;
+    }
+    .splits ul li a h3{
+        font-size: 10px;
+        top: -70px;
+    }
+    .splitpic{
+        width: 200px;
+        height: 100px;
+    }
+    .logopic{
+        position: relative;
+        left: -50px;
+        width: 40px;
+        height: 40px;
+    }
+    .footer ul{
+        display: block;
+        text-align: left;
+        left: -35px;
+    }
+    .footer{
+        height: 1000px;
+    }
+    .footer ul li{
+        width: auto;
+        height: 20px;
+    }
+    .about-info ul li h1{
+        font-size: 14px;
+        width: auto;
+    }
+    .about-info ul li a{
+        font-size: 9px;
+    }
+    .nav-toggler{
+        right: 20px;
+        left: 20px;
+        height: 27px;
+        width: 30px;
+    }
+    .nav-toggler span{
+        height: 2px;
+        width: 16px;
+        background-color: white;
+        display: block;
+        margin: auto;
+        position: relative;
+    }
+    .about-info ul li p{
+        font-size: 9px;
+    }
+    .about-info ul{
+        height: fit-content;
+    }
+  
+    
+
+
+}
