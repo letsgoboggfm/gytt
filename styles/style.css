@@ -1536,7 +1536,7 @@
     .splitpic{
         width: 320px;
         height: 120px;
-        filter: blur(2px);
+        filter: blur(2px
     }
     .logopic{
         position: relative;
